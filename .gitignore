@@ -61,6 +61,8 @@ env/
 config.py
 *.env
 .env
+.env.*
+!.env.example
 
 # Database files
 *.db
@@ -75,6 +77,8 @@ lancedb_data/
 locomo10_test_results.json
 test_results/
 *.json
+!experiments/reflection/questions.json
+!experiments/reflection/summary.json
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -84,4 +88,5 @@ test_results/
 *.pt
 *.pth
 *.onnx
+*.safetensors
 docs/other
