@@ -35,6 +35,16 @@ in both content and order in 96 of 360 pairs. The initial searches and final
 answers were sampled independently across the two groups, so individual
 score changes can also reflect that variation.
 
+Among the 181 pairs whose enabled run had an empty `added_memory_ids` list,
+reflection added an average of 2,581 API tokens and 2.28 seconds per question.
+The calculation subtracts disabled from enabled within each pair, using the
+sum of reported prompt and completion tokens and the recorded
+`total_seconds`. The pairwise differences sum to 467,071 tokens and
+411.7913 seconds before division by 181.
+
+The [case evidence](CASE_EVIDENCE.md) lists the observed answers, scores and
+the memory IDs for the entries discussed below.
+
 - **Additional supporting evidence.** For `conv-43`, question index 38 in
   round 3, the enabled group answered “The UK” (F1 0.67). The disabled group
   could not determine the answer (F1 0). Supplemental search added a record of
