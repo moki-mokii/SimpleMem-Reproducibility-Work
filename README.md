@@ -56,6 +56,8 @@ The summarizer writes `test_results/reflection/summary.json` with four-category 
 
 See the [measured results and examples](experiments/reflection/RESULTS.md) and the [machine-readable summary](experiments/reflection/summary.json) from the completed run.
 
+Read the [reproducibility report (PDF)](experiments/reflection/SimpleMem-Reproducibility-Work-Report.pdf).
+
 ## Upstream documentation
 
 For SimpleMem's architecture and general usage, see the [original SimpleMem README](https://github.com/aiming-lab/SimpleMem/blob/7da777f56a15db81bb261d296c89cad5915e8d67/README.md).
